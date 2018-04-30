@@ -12,4 +12,4 @@ nobase_dist_cant_believe_its_not_man_DATA = \
 
 
 clean-local:
-	rm ./*/*.tmp ./*/*.gz ./*/*/*.tmp ./*/*/*.gz
+	$(RM) ./*/*.tmp ./*/*.gz ./*/*/*.tmp ./*/*/*.gz
